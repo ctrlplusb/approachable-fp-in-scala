@@ -55,7 +55,7 @@ The Scala REPL allows you to execute Scala code within your console. It interpre
 * Importing of libraries
 * Pasting or importing of code
 
-It's a great tool to quickly test the language with and develop your understanding. 
+It's a great tool to quickly test the language with and develop your understanding.
 
 **Starting the REPL**
 
@@ -87,7 +87,7 @@ You should see a result similar to:
 msg: String = I am learning FP with Scala
 ```
 
-This is the REPL reporting that you have created a `val` with the name `msg` of type `String` and that its value is `I am learning FP with Scala`.
+This is the REPL reporting that you have created a `val` with the name `msg` of type `String` and that its value is "I am learning FP with Scala".
 
 You can reuse this `val` in subsequent commands. For example try executing the following:
 
