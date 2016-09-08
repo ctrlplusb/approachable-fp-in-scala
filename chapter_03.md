@@ -118,7 +118,3 @@ You should have seen "Hello World" printed out in the console.
 
 Pretty cool hey? It's a nice easy way to get started and as your skills progress you may even decide to create some useful scripts for your day-to-day tasks. It's also nice for you to be able to save and revisit any of your experiments.
 
----
-
-That is as much as we will cover for now. It is as much as you will need for the next few chapters. I am intentionally keeping us away from powerful IDEs \(Integrated Development Environment\) as they do too much work for us and can make us feel that a lot of magic is going on in the background. If you keep your toolset simple to begin with you'll be able to develop a deeper and more intuitive understanding of what chores an IDE is taking care of for us.
-
