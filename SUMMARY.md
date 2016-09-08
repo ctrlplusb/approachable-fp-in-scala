@@ -6,4 +6,5 @@
 * [Chapter 3: Gearing up](chapter_03.md)
 * [Chapter 4: Functions for everyone!](chapter_04.md)
 * [Chapter 5: Currying... yum?](chapter_05.md)
+* [Chapter 6: Currying... yum?](chapter_06.md)
 
