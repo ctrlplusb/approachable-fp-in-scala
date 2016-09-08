@@ -1,10 +1,8 @@
 # Chapter 1: Why learn Functional Programming?
 
-Well, before we go over the benefits of coding using the functional programming paradigm we should consider defining the term. 
+Well, before we go over the benefits of coding using the functional programming paradigm we should consider defining the term. The shortest description of functional programming is "coding using functions".  Sounds devilishly simple right? Yep, that is undoubtably an oversimplification, however the heart of the FP paradigm is truly the _function_.  
 
-The shortest description of functional programming is "coding using functions".  I guess we know why it's called functional programming now. :\)
-
-Sounds devilishly simple right? Yep, that is an oversimplification, however the heart of the FP paradigm is the usage of functions.  Specifically we use functions to map inputs to outputs. We then compose these functions together piping data from one form to another until we have a fully working application.
+With FP you make glorious use of _functions_ composing them together so that your data pipes through them being transformed from one form to another until you have a fully working application that accepts inputs \(e.g. HTTP Requests\) and produces outputs \(e.g. HTTP Responses\).
 
 Topics: Immutability, Statelessness, Reasonability, Performance.
 
