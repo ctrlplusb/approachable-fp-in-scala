@@ -2,7 +2,7 @@
 
 It would be immensely useful if you had Scala set up on your machine. So in this chapter we will be doing just that. After we have our install humming along nicely I will then take you through a couple of ways that you can run some Scala code. This will be critical for you to participate in the upcoming exercises.
 
-## Firstly, we will need Java
+## First, some Java
 
 As Scala is a [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine) powered language you will need to have Java installed. I recommend that you install the latest version of Java \(version 8 at the time of writing\) which will support the upcoming Scala 2.12 release.
 
