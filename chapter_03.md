@@ -8,7 +8,9 @@ As Scala is a [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine) powered 
 
 To check if Java is installed on your machine open a console and type the following command:
 
-`java -version`
+```bash
+java -version  
+```
 
 > The version number that you get back will likely be something like \`1.8.0\_25-b17\`. You can interpret this number by dropping the leading \`1.\` from it \(i.e. \`1.8.0\_25-b17\` becomes \`8.0\_25-b17\`\) in order to extract the commonly know major version number. The example being version 8.
 
@@ -33,7 +35,9 @@ As you can see, the \`bin\` folder contains all the binary files we will need. W
 
 Once you have done the above test that all is well by opening a console and then type in the following:
 
-`scala -version`
+```bash
+scala -version
+```
 
 You should then see a message detailing the Scala version that you just installed.
 
@@ -56,63 +60,81 @@ The Scala REPL allows you to execute Scala code within your console. It interpre
 
 It's a great tool to quickly test the language with and develop your understanding. To use it open a console and execute the following command:
 
-`scala`
+```bash
+scala
+```
 
 You should see something similar to the following \(if you didn't then you likely don't have Scala installed or configured on your PATH correctly\):
 
-`Welcome to Scala 2.11.8 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_101).`
-
-`Type in expressions for evaluation. Or try :help`
-
-`scala>`
+```bash
+Welcome to Scala 2.11.8 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_101).
+Type in expressions for evaluation. Or try :help
+scala>
+```
 
 Try typing in the following and then press ENTER:
 
-`scala> val msg = "I am learning FP with Scala"`
+```bash
+scala> val msg = "I am learning FP with Scala"
+```
 
 You should see a result similar to:
 
-`msg: String = I am learning FP with Scala`
+```bash
+msg: String = I am learning FP with Scala
+```
 
 This is the REPL reporting that you have created a \`val\` with the name \`msg\` of type \`String\` and that its value is \`I am learning FP with Scala\`.
 
 You can reuse this \`val\` in subsequent commands. For example try executing the following:
 
-`val shoutedMsg = msg.toUpperCase`
+```
+val shoutedMsg = msg.toUpperCase
+```
 
 You should then see something like:
 
-`shoutedMsg: String = I AM LEARNING FP WITH SCALA`
+```
+shoutedMsg: String = I AM LEARNING FP WITH SCALA
+```
 
 > **TIP:** It can be tricky to remember all the variables you created as well as the methods that you can execute on them. The REPL recently added a super helpful auto-complete and suggestion feature. Try typing in \`shoute\` and then press the TAB key. The REPL should auto fill in the rest of name of your created variable \(i.e. \`shoutedMsg\`\). Now type a \`.\` character after the variable \(i.e. \`shoutedMsg.\`\) and press TAB again. You should see a list of all the methods available to the variable. You can partial type in one of the methods and then press TAB again to have the REPL auto-complete the rest.
 
 To quit the REPL execute the following command:
 
-`:quit`
+```
+:quit
+```
 
 ### Scripts
 
 You can create simple Scala "script files" and execute them directly. For example, create a file called \`HelloWorld.scala\` and give it the following contents:
 
-`val msg = "Hello World!"`
-
-`println(msg)`
+```
+val msg = "Hello World!"
+println(msg)
+```
 
 Don't worry about the syntax for now, we will cover it later. Save your file and then execute the following command in the same directory in which you created the \`HelloWorld.scala\` file:
 
-`scala HelloWorld.scala`
+```
+scala HelloWorld.scala
+```
 
 You should have seen "Hello World" printed out in the console.
 
 Script files also support the provision of command line arguments. You can access them by passing a 0-index based argument to the \`args\` method. For example rewrite your above script to look like the following:
 
-`val msg = "Hello " + args(0)`
-
-`println(msg)`
+```
+val msg = "Hello " + args(0)
+println(msg)
+```
 
 And then execute it like so:
 
-`scala HelloWorld.scala world`
+```
+scala HelloWorld.scala world
+```
 
 You should have seen "Hello World" printed out in the console.
 
