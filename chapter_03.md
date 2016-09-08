@@ -68,87 +68,51 @@ You should see something similar to the following \(if you didn't then you likel
 
 Try typing in the following and then press ENTER:
 
-\`\`\`
-
-scala&gt; val msg = "I am learning FP with Scala"
-
-\`\`\`
+`scala> val msg = "I am learning FP with Scala"`
 
 You should see a result similar to:
 
-\`\`\`
-
-msg: String = I am learning FP with Scala
-
-\`\`\`
+`msg: String = I am learning FP with Scala`
 
 This is the REPL reporting that you have created a \`val\` with the name \`msg\` of type \`String\` and that its value is \`I am learning FP with Scala\`.
 
 You can reuse this \`val\` in subsequent commands. For example try executing the following:
 
-\`\`\`
-
-val shoutedMsg = msg.toUpperCase
-
-\`\`\`
+`val shoutedMsg = msg.toUpperCase`
 
 You should then see something like:
 
-\`\`\`
+`shoutedMsg: String = I AM LEARNING FP WITH SCALA`
 
-shoutedMsg: String = I AM LEARNING FP WITH SCALA
-
-\`\`\`
-
-&gt; \_\_TIP:\_\_ It can be tricky to remember all the variables you created as well as the methods that you can execute on them. The REPL recently added a super helpful auto-complete and suggestion feature. Try typing in \`shoute\` and then press the TAB key. The REPL should auto fill in the rest of name of your created variable \(i.e. \`shoutedMsg\`\). Now type a \`.\` character after the variable \(i.e. \`shoutedMsg.\`\) and press TAB again. You should see a list of all the methods available to the variable. You can partial type in one of the methods and then press TAB again to have the REPL auto-complete the rest.
+> **TIP:** It can be tricky to remember all the variables you created as well as the methods that you can execute on them. The REPL recently added a super helpful auto-complete and suggestion feature. Try typing in \`shoute\` and then press the TAB key. The REPL should auto fill in the rest of name of your created variable \(i.e. \`shoutedMsg\`\). Now type a \`.\` character after the variable \(i.e. \`shoutedMsg.\`\) and press TAB again. You should see a list of all the methods available to the variable. You can partial type in one of the methods and then press TAB again to have the REPL auto-complete the rest.
 
 To quit the REPL execute the following command:
 
-\`\`\`
-
-:quit
-
-\`\`\`
+`:quit`
 
 ### Scripts
 
 You can create simple Scala "script files" and execute them directly. For example, create a file called \`HelloWorld.scala\` and give it the following contents:
 
-\`\`\`scala
+`val msg = "Hello World!"`
 
-val msg = "Hello World!"
-
-println\(msg\)
-
-\`\`\`
+`println(msg)`
 
 Don't worry about the syntax for now, we will cover it later. Save your file and then execute the following command in the same directory in which you created the \`HelloWorld.scala\` file:
 
-\`\`\`
-
-scala HelloWorld.scala
-
-\`\`\`
+`scala HelloWorld.scala`
 
 You should have seen "Hello World" printed out in the console.
 
 Script files also support the provision of command line arguments. You can access them by passing a 0-index based argument to the \`args\` method. For example rewrite your above script to look like the following:
 
-\`\`\`scala
+`val msg = "Hello " + args(0)`
 
-val msg = "Hello " + args\(0\)
-
-println\(msg\)
-
-\`\`\`
+`println(msg)`
 
 And then execute it like so:
 
-\`\`\`
-
-scala HelloWorld.scala world
-
-\`\`\`
+`scala HelloWorld.scala world`
 
 You should have seen "Hello World" printed out in the console.
 
