@@ -6,11 +6,11 @@ Before we describe these benefits we should provide a definition on the term. Th
 
 When doing FP you make glorious use of _functions_, composing them together so that your data gets piped through them, transformed from one form to another until you eventually have a fully working application that accepts inputs \(e.g. HTTP Requests\) and produces outputs \(e.g. HTTP Responses\).
 
-Of course there are some other elements and principles that allow FP to really shine.  I'll describe those below.
+Of course there are some other elements and principles that allow FP to really shine.  I'll describe some below, detailing the benefits they have packed with them.
 
 ## A world without mutation
 
-A cornerstone of the FP paradigm: immutable data structures.  
+A cornerstone of the FP paradigm: immutable data structures.
 
 Benefits: performance.
 
