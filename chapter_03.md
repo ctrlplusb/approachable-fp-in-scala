@@ -33,11 +33,9 @@ As you can see, the \`bin\` folder contains all the binary files we will need. W
 
 Once you have done the above test that all is well by opening a console and then type in the following:
 
-\`\`\`
+`scala -version`
 
-scala -version
 
-\`\`\`
 
 \#\# Running Scala
 
