@@ -22,6 +22,10 @@ TODO
 
 Benefits: reasonability, testability, refactorability.
 
+Discuss referential transparency?
+
+Discuss: How do we represent IO?
+
 TODO
 
 ## Summary
