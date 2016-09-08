@@ -50,15 +50,16 @@ Now that you have Scala installed I will take you through a couple of the ways y
 The Scala REPL allows you to execute Scala code within your console. It interprets your code immediately, returning the result. Some of its features are:
 
 * Create and reuse variables \(including functions\)
-
 * Multi-line support
-
 * TAB completion\/suggestion
-
 * Importing of libraries
+* Pasting or importing of code
 
+It's a great tool to quickly test the language with and develop your understanding. 
 
-It's a great tool to quickly test the language with and develop your understanding. To use it open a console and execute the following command:
+**Starting the REPL**
+
+To use it open a console and execute the following command:
 
 ```bash
 scala
@@ -72,6 +73,8 @@ Type in expressions for evaluation. Or try :help
 scala>
 ```
 
+**Basic usage**
+
 Try typing in the following and then press ENTER:
 
 ```bash
@@ -84,9 +87,9 @@ You should see a result similar to:
 msg: String = I am learning FP with Scala
 ```
 
-This is the REPL reporting that you have created a \`val\` with the name \`msg\` of type \`String\` and that its value is \`I am learning FP with Scala\`.
+This is the REPL reporting that you have created a `val` with the name `msg` of type `String` and that its value is `I am learning FP with Scala`.
 
-You can reuse this \`val\` in subsequent commands. For example try executing the following:
+You can reuse this `val` in subsequent commands. For example try executing the following:
 
 ```
 val shoutedMsg = msg.toUpperCase
@@ -99,6 +102,8 @@ shoutedMsg: String = I AM LEARNING FP WITH SCALA
 ```
 
 > **TIP:** It can be tricky to remember all the variables you created as well as the methods that you can execute on them. The REPL recently added a super helpful auto-complete and suggestion feature. Try typing in \`shoute\` and then press the TAB key. The REPL should auto fill in the rest of name of your created variable \(i.e. \`shoutedMsg\`\). Now type a \`.\` character after the variable \(i.e. \`shoutedMsg.\`\) and press TAB again. You should see a list of all the methods available to the variable. You can partial type in one of the methods and then press TAB again to have the REPL auto-complete the rest.
+
+**Exiting the REPL**
 
 To quit the REPL execute the following command:
 
