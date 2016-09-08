@@ -8,13 +8,23 @@ When doing FP you make glorious use of _functions_, composing them together so t
 
 Of course there are some other elements and principles that allow FP to really shine.  I'll describe some below, detailing the benefits they have packed with them.
 
-## A world without mutation
+## The foundations of FP
+
+### A world without mutation
 
 A cornerstone of the FP paradigm: immutable data structures.
 
 Benefits: performance.
 
-## Predictability through purity
+TODO
+
+### Predictability through purity
 
 Benefits: reasonability, testability, refactorability.
+
+TODO
+
+## Summary
+
+TODO
 
