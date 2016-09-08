@@ -35,13 +35,13 @@ Once you have done the above test that all is well by opening a console and then
 
 `scala -version`
 
+You should then see a message detailing the Scala version that you just installed.
 
-
-\#\# Running Scala
+## Executing Scala code
 
 Now that you have Scala installed I will take you through a couple of the ways you can try out the language. I am only going to introduce a few "simple" techniques, just enough to get you go going through the next few chapters. Don't worry, we will cover some more "advanced" techniques in later chapters.
 
-\#\#\# The Scala REPL
+### The REPL
 
 The Scala REPL allows you to execute Scala code within your console. It interprets your code immediately, returning the result. Some of its features are:
 
@@ -56,23 +56,15 @@ The Scala REPL allows you to execute Scala code within your console. It interpre
 
 It's a great tool to quickly test the language with and develop your understanding. To use it open a console and execute the following command:
 
-\`\`\`
-
-scala
-
-\`\`\`
+`scala`
 
 You should see something similar to the following \(if you didn't then you likely don't have Scala installed or configured on your PATH correctly\):
 
-\`\`\`
+`Welcome to Scala 2.11.8 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_101).`
 
-Welcome to Scala 2.11.8 \(Java HotSpot\(TM\) 64-Bit Server VM, Java 1.8.0\_101\).
+`Type in expressions for evaluation. Or try :help`
 
-Type in expressions for evaluation. Or try :help
-
-scala&gt;
-
-\`\`\`
+`scala>`
 
 Try typing in the following and then press ENTER:
 
@@ -118,7 +110,7 @@ To quit the REPL execute the following command:
 
 \`\`\`
 
-\#\#\# Scala script files
+### Scripts
 
 You can create simple Scala "script files" and execute them directly. For example, create a file called \`HelloWorld.scala\` and give it the following contents:
 
