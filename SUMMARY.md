@@ -7,4 +7,5 @@
 * [Chapter 4: Basic Types and Functions](chapter_04.md)
 * [Chapter 5: Higher Order Functions](chapter_05.md)
 * [Chapter 6: Currying... yum?](chapter_06.md)
+* [Chapter 7: Functional Control Structures](chapter_07.md)
 
