@@ -1,4 +1,4 @@
-# Chapter 5: Currying... yum?
+# Chapter 5: Functions for everyone!
 
 TODO
 
