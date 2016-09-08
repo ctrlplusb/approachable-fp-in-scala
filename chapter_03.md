@@ -39,7 +39,7 @@ You should then see a message detailing the Scala version that you just installe
 
 ## Executing Scala code
 
-Now that you have Scala installed I will take you through a couple of the ways you can try out the language. I am only going to introduce a few "simple" techniques, just enough to get you go going through the next few chapters. Don't worry, we will cover some more "advanced" techniques in later chapters.
+Now that you have Scala installed I will take you through a couple of the ways you can try out the language. I am only going to introduce a few "simple" techniques, just enough to get you go going through the next few chapters. Don't worry, we will cover some more "advanced" techniques, including Integrated Development Environments, in later chapters.
 
 ### The REPL
 
