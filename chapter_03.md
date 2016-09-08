@@ -2,7 +2,7 @@
 
 It would be immensely useful if you had Scala set up on your machine. So in this chapter we will be doing just that. After we have our install humming along nicely I will then take you through a couple of ways that you can run some Scala code. This will be critical for you to participate in the upcoming exercises.
 
-## Firstly, we will need Java 
+## Firstly, we will need Java
 
 As Scala is a [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine) powered language you will need to have Java installed. I recommend that you install the latest version of Java \(version 8 at the time of writing\) which will support the upcoming Scala 2.12 release.
 
@@ -18,9 +18,18 @@ If you received a "command not found" error message then you likely need to inst
 
 Great, we have Java installed now, so lets go ahead and get Scala set up.  Go to the [download page](http://www.scala-lang.org/download/) and select the option to download the binaries \(at time of writing this was "Option 1"\). You should now have compressed file saved.  This compressed file contains everything you need to compile and run Scala code with.  It doesn't require any installation process, you simply need to uncompress it and you are good to go.  So choose an appropriate place in your system to host the files and move the compressed file there.  In my case I just created a \`scala\` folder in my user folder. After you have moved the file feel free to decompress it. You should then see a structure similar to the following:
 
-`/Users/Sean/scala/scala-2.11.8/```` |- bin```` |- doc```` |- lib```` |- man`
+```
+/Users/Sean/scala/scala-2.11.8/
+                              |- bin
+                              |    |- scala
+                              |    |- scalac
+                              |    |- fsc
+                              |- doc
+                              |- lib
+                              |- man
+```
 
-The \`bin\` folder contains all the magic you will need to compile and run Scala code. If you browse it you will notice binary files such as \`scala\`, \`scalac\`, and \`fsc\`. We are going to be calling these binaries directly and often so it is in your best interests that you add the full path to \`bin\` directory to your systems respective PATH environment variable so that you can easily call these binaries. If you have no idea how to do this a quick Google search \(e.g. "add to the PATH on Mac OS X"\) for your respective operating system will quickly reveal some helpful instructions.
+As you can see, the \`bin\` folder contains all the binary files we will need. We are going to be executing these binaries files often so it is in your best interests to add the full path to the \`bin\` directory to your system's respective PATH environment variable.  This will allow you to simply type \`scala\` in your console without prefixing it with the full path \(e.g. \`\/Users\/Sean\/scala\/scala-2.11-8\/bin\/scala\`\). If you have no idea how to add to your PATH environment variable, a quick Google search for your respective operating system will reveal some helpful instructions \(e.g. "add to the PATH on Mac OS X"\).
 
 Once you have done the above test that all is well by opening a console and then type in the following:
 
@@ -38,13 +47,14 @@ Now that you have Scala installed I will take you through a couple of the ways y
 
 The Scala REPL allows you to execute Scala code within your console. It interprets your code immediately, returning the result. Some of its features are:
 
- - Create and reuse variables \(including functions\)
+* Create and reuse variables \(including functions\)
 
- - Multi-line support
+* Multi-line support
 
- - TAB completion\/suggestion
+* TAB completion\/suggestion
 
- - Importing of libraries
+* Importing of libraries
+
 
 It's a great tool to quickly test the language with and develop your understanding. To use it open a console and execute the following command:
 
