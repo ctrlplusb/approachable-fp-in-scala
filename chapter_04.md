@@ -1,4 +1,2 @@
-# Chapter 4: Functions for everyone!
-
-TODO
+# Chapter 4: Basic Types and Functions
 
