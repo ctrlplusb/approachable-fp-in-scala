@@ -95,7 +95,7 @@ You can reuse this `val` in subsequent commands. For example try executing the f
 val shoutedMsg = msg.toUpperCase
 ```
 
-You should then see something like:
+The above commands transforms the text contained within `msg`, converting it to uppercase, and then stores the result in a new `val` called `shoutedMsg`. You should have seen a result similar to the following:
 
 ```
 shoutedMsg: String = I AM LEARNING FP WITH SCALA
